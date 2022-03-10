@@ -32,7 +32,7 @@ introduction <- tabPanel(
               As for how they work, face masks work to reduce the chance of transmissibility for each point of contact
               between people. This is one half of the equation in disease modeling, which requires the number
               of contacts and how likely it is to spread disease with each contact. However, in order for face masks
-              to work, widespread compliance needs to happen"),
+              to work, widespread compliance needs to happen."),
             uiOutput("intro_img") %>%
               tagAppendAttributes(class = 'intro_img')
   )
